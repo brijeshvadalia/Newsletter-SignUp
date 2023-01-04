@@ -30,6 +30,7 @@ app.post("/", function(req, res) {
         }],
     }
 
+
     var jsonData = JSON.stringify(data)
 
     console.log(firstName, lastName, email);
